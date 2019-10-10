@@ -1,5 +1,4 @@
 
-
 // At the McGraw-Hill book website, you will find a Java package called
 // galapagos. The galapagos package includes a Turtle class that is modeled
 // after Seymour Papert’s logo. This Turtle has a pen, and when you move the
@@ -11,19 +10,17 @@ import java.awt.*;
 import galapagos.*;
 
 public class Exercise29 {
- public static void main(String[] arg) {
-  Turtle turtle = new Turtle();
-  int arm = 120;
-  turtle.penColor(Color.red);
-  turtle.hide();
-  turtle.jumpTo(-arm / 2, 0);
-  turtle.speed(1000);
-  for (int i = 0; i < 2; i++) {
-   turtle.move(arm);
-   turtle.turn(120);
-  }
-  turtle.move(arm);
- }
+    public static void main(String[] arg) {
+        Turtle turtle = new Turtle();
+        int arm = 120;
+        turtle.penColor(Color.red);
+        turtle.hide();
+        turtle.jumpTo(-arm / 2, 0);
+        turtle.speed(1000);
+        for (int i = 0; i < 2; i++) {
+            turtle.move(arm);
+            turtle.turn(120);
+        }
+        turtle.move(arm);
+    }
 }
-
-
