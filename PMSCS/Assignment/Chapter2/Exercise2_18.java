@@ -8,13 +8,7 @@ class Exercise2_18 extends JFrame {
     public NameWindow()
     {
         setSize(800, 600);
-        setTitle("Welcome to java");
-
-        // helloWindow.add(nameField);
-        // helloWindow.add(nameLabel);
         setVisible(true);
-    }
-
     }
 
     public static void main(String[] args) {
