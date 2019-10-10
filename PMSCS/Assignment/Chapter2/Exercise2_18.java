@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-class Window extends JFrame {
+class Exercise2_18 extends JFrame {
     // JFrame helloWindow = new JFrame();
     JTextField nameField = new JTextField(30);
     JLabel nameLabel = new JLabel();
