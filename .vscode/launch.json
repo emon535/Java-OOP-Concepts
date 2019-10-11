@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LoanCalculator",
+            "request": "launch",
+            "mainClass": "LoanCalculator"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Exercise2_18",
             "request": "launch",
             "mainClass": "Exercise2_18"
