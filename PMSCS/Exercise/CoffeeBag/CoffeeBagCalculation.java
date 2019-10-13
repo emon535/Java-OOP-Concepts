@@ -9,24 +9,16 @@ import java.util.Scanner;
 
 /**
  *
- * @author Dell OptiPlex
+ * @author emon535
  */
-public class CoffeeBagCalculation {
+class CoffeeBagCalculation {
     public static void main(String[] args) {
-        
         Scanner in = new Scanner(System.in);
         System.out.print("Input the Total Number of Coffee Bag: ");
         double numberOfBags = in.nextInt();
-        
-        
         System.out.print("Input the Total Number of Coffee Bag: ");
         double weight = in.nextInt();
-        
-       CoffeeBag BagOne = new CoffeeBag(numberOfBags, weight);
-        
-       
-                
+        CoffeeBag BagOne = new CoffeeBag(numberOfBags, weight);
         System.out.println(BagOne.getCoffeePrice());
-    
     }
 }

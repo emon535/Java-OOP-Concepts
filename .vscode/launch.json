@@ -2,6 +2,42 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Exercise29",
+            "request": "launch",
+            "mainClass": "Exercise29"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exercise27",
+            "request": "launch",
+            "mainClass": "Exercise27"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exercise23",
+            "request": "launch",
+            "mainClass": "Exercise23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exercise20",
+            "request": "launch",
+            "mainClass": "Exercise20"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CoffeeBagCalculation",
+            "request": "launch",
+            "mainClass": "Task.CoffeeBagCalculation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Calculator",
+            "request": "launch",
+            "mainClass": "Task.Calculator"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - LoanCalculator",
             "request": "launch",
             "mainClass": "LoanCalculator"
