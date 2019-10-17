@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Calculator",
+            "request": "launch",
+            "mainClass": "Calculator",
+            "projectName": "Java-OOP-Concepts_5005519e"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CoffeeBagCalculation",
+            "request": "launch",
+            "mainClass": "CoffeeBagCalculation",
+            "projectName": "Java-OOP-Concepts_5005519e"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BicycleRegistration",
+            "request": "launch",
+            "mainClass": "BicycleRegistration",
+            "projectName": "Java-OOP-Concepts_5005519e"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Exercise29",
             "request": "launch",
             "mainClass": "Exercise29"

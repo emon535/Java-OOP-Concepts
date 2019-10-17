@@ -1,11 +1,16 @@
 import javax.swing.*;
 
-class Exercise2_18 extends JFrame {
+/**
+ *
+ */
+
+public class Exercise2_18 extends JFrame {
+    private static final long serialVersionUID = 1L;
     // JFrame helloWindow = new JFrame();
     JTextField nameField = new JTextField(30);
     JLabel nameLabel = new JLabel();
 
-    public NameWindow()
+    NameWindow
     {
         setSize(800, 600);
         setVisible(true);
